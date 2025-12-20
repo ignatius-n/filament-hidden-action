@@ -35,8 +35,7 @@ use JeffersonGoncalves\Filament\HiddenAction\HiddenAction;
 HiddenAction::make('hidden-action')
     ->action(function () {
         // Your logic here
-    })
-    ->keyBindings(['command+s']);
+    });
 ```
 
 ## Development
