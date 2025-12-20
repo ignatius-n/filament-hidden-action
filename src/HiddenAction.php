@@ -16,7 +16,7 @@ class HiddenAction extends Action
     public function getExtraViewData(): array
     {
         return [
-            'name' => $this->getName(),
+            'name' => md5($this->getName()),
         ];
     }
 }
