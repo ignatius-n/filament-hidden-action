@@ -1,11 +1,13 @@
 {
   "name": "jeffersongoncalves/filament-hidden-action",
-  "description": "",
+  "description": "Filament hidden action that allows you to define actions without rendering them in the UI.",
   "keywords": [
     "jeffersongoncalves",
     "laravel",
     "filament",
-    "filament-plugin"
+    "filament-plugin",
+    "hidden-action",
+    "keyboard-shortcuts"
   ],
   "homepage": "https://github.com/jeffersongoncalves/filament-hidden-action",
   "license": "MIT",
