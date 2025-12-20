@@ -12,4 +12,11 @@ class HiddenAction extends Action
 
         $this->defaultView('filament-hidden-action::components.hidden');
     }
+
+    public function getExtraViewData(): array
+    {
+        return [
+            'name' => $this->getName(),
+        ];
+    }
 }
