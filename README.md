@@ -15,7 +15,7 @@ This package provides a `HiddenAction` for Filament, allowing you to define acti
 ## Requirements
 
 - PHP 8.2 or higher
-- Filament 4.0 or higher
+- Filament 5.0
 
 ## Installation
 
